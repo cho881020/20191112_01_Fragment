@@ -13,6 +13,14 @@
         android:layout_height="150dp"
         class="com.tjoeun.a20191112_01_fragment.fragments.FirstFragment"/>
 
+<!--    배경 검정, 글씨 흰색인 SecondFragment 추가-->
+
+    <fragment
+        android:id="@+id/secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        class="com.tjoeun.a20191112_01_fragment.fragments.SecondFragment" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
