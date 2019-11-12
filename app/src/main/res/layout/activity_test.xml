@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <fragment
+                android:id="@+id/firstFrag"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                class="com.tjoeun.a20191112_01_fragment.fragments.FirstFragment"/>
+
+            <fragment
+                android:id="@+id/secondFrag"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                class="com.tjoeun.a20191112_01_fragment.fragments.SecondFragment"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
