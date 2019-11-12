@@ -7,9 +7,15 @@
     android:orientation="vertical"
     tools:context=".TestActivity">
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/testViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:visibility="gone">
 
         <LinearLayout
             android:layout_width="wrap_content"
