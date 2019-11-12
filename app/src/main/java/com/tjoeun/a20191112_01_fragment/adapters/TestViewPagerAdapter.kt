@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.tjoeun.a20191112_01_fragment.fragments.FirstFragment
 import com.tjoeun.a20191112_01_fragment.fragments.SecondFragment
 
-class TestViewPager(fm:FragmentManager) : FragmentPagerAdapter(fm) {
+class TestViewPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
 
 //    각 위치에 어떤 Fragment를 보여줄건지
     override fun getItem(position: Int): Fragment {
