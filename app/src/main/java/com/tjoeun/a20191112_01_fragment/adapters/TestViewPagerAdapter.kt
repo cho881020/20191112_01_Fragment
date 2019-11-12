@@ -24,4 +24,16 @@ class TestViewPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
     override fun getCount(): Int {
         return 2
     }
+
+    override fun getPageTitle(position: Int): CharSequence? {
+        return when(position) {
+            0 -> {
+                "첫 탭"
+            }
+            else -> {
+                "두번째 탭"
+            }
+        }
+    }
+
 }
